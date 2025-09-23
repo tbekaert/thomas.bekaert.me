@@ -1,8 +1,15 @@
 import Image from 'next/image'
 
+import { Link } from '@/components/Link'
+import { Lang } from '@/i18n'
+
+import { getDictionary } from './dictionaries'
 import styles from './page.module.css'
 
-export default function Home() {
+export default async function Home({ params }: { params: { lang: Lang } }) {
+  const { lang } = await params
+  const dict = await getDictionary(lang)
+
   return (
     <div className={styles.page}>
       <main className={styles.main}>
@@ -14,19 +21,19 @@ export default function Home() {
           height={38}
           priority
         />
-        {/* <ol>
-          <li>{t('metaTitle')}</li>
-          <li>{locale}</li>
+        <ol>
+          <li>{dict.metaTitle}</li>
+          <li>{lang}</li>
           <li>
-            <Link locale='fr' href='/'>
+            <Link lang='fr' href='/'>
               FR
             </Link>{' '}
             |{' '}
-            <Link locale='en' href='/'>
+            <Link lang='en' href='/'>
               EN
             </Link>
           </li>
-        </ol> */}
+        </ol>
 
         <div className={styles.ctas}>
           <a
