@@ -1,0 +1,33 @@
+{
+  "semi": false,
+  "singleQuote": true,
+  "jsxSingleQuote": true,
+  "trailingComma": "all",
+  "arrowParens": "avoid",
+  "bracketSpacing": true,
+  "jsxBracketSameLine": false,
+  "importOrder": [
+    "^react",
+    "",
+    "^next",
+    "",
+    "<THIRD_PARTY_MODULES>",
+    "",
+    "^@/(?!assets)",
+    "",
+    "^\\../(?!assets)",
+    "",
+    "^\\./(?!assets)",
+    "",
+    "^@/assets",
+    "^\\./assets",
+    "^\\../assets"
+  ],
+  "importOrderSeparation": false,
+  "importOrderSortSpecifiers": true,
+  "importOrderBuiltinModulesToTop": true,
+  "importOrderParserPlugins": ["typescript", "jsx", "decorators-legacy"],
+  "importOrderMergeDuplicateImports": true,
+  "importOrderCombineTypeAndValueImports": true,
+  "plugins": ["@ianvs/prettier-plugin-sort-imports"]
+}
