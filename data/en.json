@@ -1,0 +1,125 @@
+{
+  "metadata": {
+    "title": "Thomas Bekaert – Frontend Engineering Leader",
+    "description": "I love crafting clean, scalable projects that make life easier for users and smarter for businesses – because every complex problem can be turned into something simple and intuitive."
+  },
+  "header": {
+    "title": "Thomas Bekaert",
+    "subtitle": "Frontend Engineering Leader",
+    "description": "I love crafting clean, scalable projects that make life easier for users and smarter for businesses – because every complex problem can be turned into something simple and intuitive."
+  },
+  "main": {
+    "experience": {
+      "title": "Work experience",
+      "projects": [
+        {
+          "company": "PerfectDraft/AB InBev",
+          "jobs": [
+            {
+              "start": "November 2022",
+              "end": "July 2025",
+              "name": "Head of Customer Ecosystem Technology",
+              "description": "Leading the Frontend side of PerfectDraft has been an incredible journey – from launching the app to hitting 400k+ downloads across Europe, the US and Brazil. I’ve been lucky to guide both web and mobile teams, set the long-term vision, and make sure our platforms stay reliable and fast. Beyond the code, I’ve loved shaping how we work as a team, streamlining processes, and making sure customers get the smoothest experience possible."
+            },
+            {
+              "start": "May 2022",
+              "end": "November 2022",
+              "name": "Technical Lead Frontend (Web & App)",
+              "description": "When Saveur Biere merged with BeerHawk to become PerfectDraft, I focused on bringing structure and consistency to our web and mobile platforms. We rolled out a TypeScript monorepo, improved workflows, and made sure our design system kept everything accessible and polished. It was all about helping the team move faster while keeping the quality bar high."
+            }
+          ]
+        },
+        {
+          "company": "Interdrinks/Saveur-biere.com",
+          "jobs": [
+            {
+              "start": "May 2019",
+              "end": "May 2022",
+              "name": "Technical Lead Frontend (Web)",
+              "description": "At Saveur Bière, I built up the frontend team from scratch and led it through some exciting growth. We boosted performance, tightened up our architecture, and worked closely with product to make Europe’s biggest online beer shop even better. It was a mix of hands-on coding, strategy, and mentoring – and a big step in shaping my leadership style."
+            },
+            {
+              "start": "July 2018",
+              "end": "May 2019",
+              "name": "Frontend developper (web)",
+              "description": "This role gave me the chance to dive deep into React/Next.js and ship features that directly improved the shopping experience. I learned a ton about state management, performance, and SEO – and really started seeing the impact of clean, scalable frontend work."
+            }
+          ]
+        },
+        {
+          "company": "Silicon Salad",
+          "jobs": [
+            {
+              "start": "April 2015",
+              "end": "June 2018",
+              "name": "Web Frontend Developer",
+              "description": "At Silicon Salad, I worked on e-commerce projects for well-known retail clients, modernizing frontends and pushing for better performance. I got to experiment with React, Sass, and PWA optimizations – always aiming to make sites faster, cleaner, and easier for customers."
+            }
+          ]
+        },
+        {
+          "company": "Onemore",
+          "jobs": [
+            {
+              "start": "January 2013",
+              "end": "March 2015",
+              "name": "Cofounder",
+              "description": "Co-founding Onemore was a real adventure – from meeting clients to scoping projects, coding sites, and even training customers on how to use their tools. It taught me a lot about balancing business and tech, and it was rewarding to see happy clients getting exactly what they needed."
+            }
+          ]
+        }
+      ],
+      "incentive": "If you're curious about the outcomes of my contribution to these projets, you can find more details/numbers/KPI's on my LinkedIn profile !"
+    },
+    "hobbies": {
+      "title": "Hobbies & Interests",
+      "items": [
+        {
+          "icon": "music",
+          "description": "I've been playing music since I was 6, before moving to music production in my teens (TV spots, mixes for friends, etc). Lately, I've been playing guitar and singing in a DIY punk rock band with my friends."
+        },
+        {
+          "icon": "book",
+          "description": "I got into science fiction books a few years ago – it’s my favorite way to unplug from screens and dive into stories that mix imagination with big ideas about the future, technology, and what it means to be human."
+        },
+        {
+          "icon": "fileHeart",
+          "description": "I have a passion for cooking, especially Italian cuisine, which I'm often trying to recreate at home. I enjoy refining my skills, combining techniques and a few simple ingredients to create memorable dishes – my favorite being the classic ‘Cacio e Pepe.’"
+        },
+        {
+          "icon": "chip",
+          "description": "I love understanding how things work, and that curiosity has grown into electronics, 3D printing, and Arduino experimentations. Whether it’s building small tools or exploring modeling, I enjoy the mix of creativity and problem-solving that comes with DIY making."
+        }
+      ]
+    }
+  },
+  "footer": {
+    "email": "thomas@bekaert.me",
+    "phone": "+33 6 70 48 40 47",
+    "location": "Lille, France",
+    "bullets": [
+      "-> Native french",
+      "-> Fluent english",
+      "-> Frontend expert",
+      "-> Notion nerd",
+      "-> Design systems enthusiast",
+      "-> Linear early adopter",
+      "-> Music lover/maker"
+    ],
+    "websites": [
+      {
+        "icon": "github",
+        "text": "tbekaert",
+        "url": "https://github.com/tbekaert"
+      },
+      {
+        "icon": "linkedin",
+        "text": "thomas-bekaert",
+        "url": "https://www.linkedin.com/in/thomas-bekaert/"
+      }
+    ]
+  },
+  "sidebar": {
+    "profileAlt": "Profile picture of Thomas Bekaert"
+  }
+}

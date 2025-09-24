@@ -1,0 +1,53 @@
+/**
+  * Page
+  */
+
+.page {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: repeat(4, auto);
+  gap: 3rem 1rem;
+  align-items: center;
+  max-width: 1190px;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 2rem;
+  background: var(--background);
+}
+
+@media (width >= 481px) {
+  .page {
+    padding: 3rem;
+  }
+}
+
+@media (width >= 769px) {
+  .page {
+    padding: 6rem;
+  }
+}
+
+@media (width >= 960px) {
+  .page {
+    grid-template-columns: 1fr auto;
+    grid-template-rows: repeat(3, auto);
+    gap: 3rem 8rem;
+    align-items: start;
+  }
+}
+
+@media (width >= 1190px) {
+  .page {
+    margin: 6rem auto;
+    min-height: auto;
+    box-shadow:
+      0.4px 0.4px 0.6px hsl(var(--shadow) / 25%),
+      1.7px 1.7px 2.6px -0.4px hsl(var(--shadow) / 24%),
+      3.2px 3px 4.7px -0.8px hsl(var(--shadow) / 24%),
+      5.2px 5px 7.8px -1.2px hsl(var(--shadow) / 23%),
+      8.5px 8.1px 12.7px -1.6px hsl(var(--shadow) / 22%),
+      13.4px 12.8px 20px -2px hsl(var(--shadow) / 22%),
+      20.5px 19.7px 30.7px -2.4px hsl(var(--shadow) / 21%),
+      30.4px 29.1px 45.4px -2.8px hsl(var(--shadow) / 20%);
+  }
+}

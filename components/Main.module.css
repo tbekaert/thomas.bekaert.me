@@ -1,0 +1,96 @@
+/* stylelint-disable selector-class-pattern */
+
+/**
+  * Main
+  */
+
+.main {
+  display: flex;
+  flex-direction: column;
+  grid-area: 3 / 1 / 4 / 3;
+  gap: 3rem;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.projectCompany {
+  font-weight: 600;
+  font-size: 1.625rem;
+}
+
+.projectJob {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  padding-left: 1.25rem;
+  border-left: 2px solid var(--text-muted);
+}
+
+.projectDates {
+  color: var(--text-muted);
+  font-size: 1.125rem;
+}
+
+.projectName {
+  font-weight: 500;
+  font-size: 1.375rem;
+  text-wrap: balance;
+}
+
+.projectDescription {
+  color: var(--text-muted);
+  font-size: 1.125rem;
+  line-height: 1.55;
+}
+
+.incentive {
+  font-size: 1.125rem;
+  line-height: 1.55;
+}
+
+.hobbies {
+  display: flex;
+  flex-flow: column wrap;
+  gap: 1rem;
+}
+
+.hobby {
+  display: flex;
+  flex: 0 0 calc(50% - 0.5rem);
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1.5rem;
+  border-radius: 4px;
+  background: var(--background-muted);
+}
+
+.hobbyIcon {
+  width: 2rem;
+}
+
+.hobbyDescription {
+  color: var(--text-muted);
+  font-size: 0.875rem;
+  line-height: 1.55;
+}
+
+@media (width >= 481px) {
+  .hobbies {
+    flex-direction: row;
+  }
+}
+
+@media (width >= 960px) {
+  .main {
+    grid-area: 3 / 1 / 4 / 2;
+  }
+}

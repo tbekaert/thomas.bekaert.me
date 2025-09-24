@@ -1,1 +1,11 @@
-{}
+{
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    "*.ts": "${capture}.types.ts, ${capture}.test.ts",
+    "*.tsx": "${capture}.types.ts, ${capture}.test.ts, ${capture}.test.tsx, ${capture}.module.css",
+    "tsconfig.json": "tsconfig.*.json",
+    "package.json": "package-lock.json, yarn.lock"
+  }
+}

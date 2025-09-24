@@ -1,4 +1,4 @@
-export const langs = ['en', 'fr'] as const
+export const langs = ['en'] as const
 
 export type Lang = (typeof langs)[number]
 
