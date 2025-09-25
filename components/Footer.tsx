@@ -17,7 +17,7 @@ export const Footer = async () => {
   const data = await getData('en')
 
   return (
-    <footer className={styles.footer}>
+    <footer className={styles.footer} id='contact'>
       <Infos
         email={data.footer.email}
         phone={data.footer.phone}

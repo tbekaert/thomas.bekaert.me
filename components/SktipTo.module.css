@@ -1,0 +1,23 @@
+/* stylelint-disable selector-class-pattern */
+
+/**
+  * Skip To
+  */
+
+.skipTo {
+  opacity: 0;
+  pointer-events: none;
+  position: fixed;
+  top: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--background-muted);
+  padding: 1rem 1.5rem;
+  border-radius: 4px;
+  max-width: calc(100% - 2rem);
+}
+
+.skipTo:focus-within {
+  opacity: 1;
+  pointer-events: auto;
+}

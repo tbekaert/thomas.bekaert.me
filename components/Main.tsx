@@ -37,13 +37,17 @@ export const Main = async () => {
 
   return (
     <main className={styles.main}>
-      <h2 className={styles.title}>{data.main.experience.title}</h2>
+      <h2 className={styles.title} id='work'>
+        {data.main.experience.title}
+      </h2>
       {data.main.experience.projects.map(project => (
         <Project key={project.company} project={project} />
       ))}
       <p className={styles.incentive}>{data.main.experience.incentive}</p>
 
-      <h2 className={styles.title}>{data.main.hobbies.title}</h2>
+      <h2 className={styles.title} id='hobbies'>
+        {data.main.hobbies.title}
+      </h2>
       <div className={styles.hobbies}>
         {data.main.hobbies.items.map(hobby => (
           <Hobby key={hobby.icon} hobby={hobby} />
