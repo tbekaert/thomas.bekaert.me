@@ -10,8 +10,8 @@ export default async function Home() {
     <div className={styles.page}>
       <Header />
       <Main />
-      <Footer />
       <Sidebar />
+      <Footer />
     </div>
   )
 }
