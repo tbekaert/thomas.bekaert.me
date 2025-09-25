@@ -157,6 +157,11 @@
         "icon": "linkedin",
         "text": "thomas-bekaert",
         "url": "https://www.linkedin.com/in/thomas-bekaert/"
+      },
+      {
+        "icon": "code",
+        "text": "Check source code",
+        "url": "https://github.com/tbekaert/thomas.bekaert.me"
       }
     ]
   },

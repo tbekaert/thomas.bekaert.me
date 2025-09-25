@@ -3,6 +3,7 @@ import { JSX, SVGProps } from 'react'
 import { default as NextLink } from 'next/link'
 
 import { getData } from '@/data'
+import CodeIcon from '@/icons/Code'
 import GitHubIcon from '@/icons/GitHub'
 import LinkedInIcon from '@/icons/LinkedIn'
 
@@ -11,6 +12,7 @@ import styles from './Footer.module.css'
 const icons: Record<string, (props: SVGProps<SVGSVGElement>) => JSX.Element> = {
   github: GitHubIcon,
   linkedin: LinkedInIcon,
+  code: CodeIcon,
 }
 
 export const Footer = async () => {
