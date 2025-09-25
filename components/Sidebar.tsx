@@ -12,7 +12,7 @@ export const Sidebar = async () => {
         src='/profile.jpg'
         width={104}
         height={104}
-        sizes='(max-width: 769px) 78px, (max-width: 960px) 104px, 208px'
+        sizes='(max-width: 769px) 56px, (max-width: 960px) 104px, 208px'
         alt={data.sidebar.profileAlt}
         className={styles.profilePic}
         priority

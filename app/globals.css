@@ -9,7 +9,7 @@
   --text-muted: #707070;
   --hover: #386138;
   --shadow: 0deg 0% 73%;
-  --pp-size: 78px;
+  --pp-size: 56px;
 }
 
 @media (prefers-color-scheme: dark) {
