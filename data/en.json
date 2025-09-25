@@ -11,65 +11,106 @@
   "main": {
     "experience": {
       "title": "Work experience",
-      "projects": [
+      "detailsText": "Details",
+      "jobs": [
         {
           "company": "PerfectDraft/AB InBev",
-          "jobs": [
+          "projects": [
             {
               "start": "November 2022",
               "end": "July 2025",
               "name": "Head of Customer Ecosystem Technology",
-              "description": "Leading the Frontend side of PerfectDraft has been an incredible journey – from launching the app to hitting 400k+ downloads across Europe, the US and Brazil. I’ve been lucky to guide both web and mobile teams, set the long-term vision, and make sure our platforms stay reliable and fast. Beyond the code, I’ve loved shaping how we work as a team, streamlining processes, and making sure customers get the smoothest experience possible."
+              "description": "Leading the Frontend side of PerfectDraft has been an incredible journey – from launching the app to hitting 400k+ downloads across Europe, the US and Brazil. I’ve been lucky to guide both web and mobile teams, set the long-term vision, and make sure our platforms stay reliable and fast. Beyond the code, I’ve loved shaping how we work as a team, streamlining processes, and making sure customers get the smoothest experience possible.",
+              "details": [
+                "-> Scaled and led a web (6 people) & mobile (3 people) frontend team, driving delivery across EU markets.",
+                "-> Defined and executed the long-term technology vision for PerfectDraft’s e-commerce and mobile app ecosystem. (from launch to 400k+ downloads)",
+                "-> Improved system performance and availability, achieving 99.9% uptime across platforms.",
+                "-> Streamlined workflows (CI/CD, task automation) cutting release cycle times by 30%.",
+                "-> Partnered with POs/PMs to align product strategy with engineering execution, accelerating feature delivery.",
+                "-> Introduced feature flags, enabling safer and faster A/B rollouts, cross systems.",
+                "-> Championed accessibility and scalability, ensuring solutions met both customer and business KPIs.",
+                "Key Stack: React, Next.js, TypeScript, TurboRepo, Vercel, Vitest, Storybook"
+              ]
             },
             {
               "start": "May 2022",
               "end": "November 2022",
               "name": "Technical Lead Frontend (Web & App)",
-              "description": "When Saveur Biere merged with BeerHawk to become PerfectDraft, I focused on bringing structure and consistency to our web and mobile platforms. We rolled out a TypeScript monorepo, improved workflows, and made sure our design system kept everything accessible and polished. It was all about helping the team move faster while keeping the quality bar high."
+              "description": "When Saveur Biere merged with BeerHawk to become PerfectDraft, I focused on bringing structure and consistency to our web and mobile platforms. We rolled out a TypeScript monorepo, improved workflows, and made sure our design system kept everything accessible and polished. It was all about helping the team move faster while keeping the quality bar high.",
+              "details": [
+                "-> Oversaw frontend development of PerfectDraft’s web and mobile experiences.",
+                "-> Established a TypeScript monorepo (Yarn/Turborepo) improving code reusability and reducing duplication by 40%.",
+                "-> Enhanced developer productivity with CI/CD pipelines, testing suites, and automation tools.",
+                "-> Drove UI consistency by integrating Storybook and design system practices, with a strong focus on accessibility.",
+                "Key Stack: React, Next.js, TypeScript, TurboRepo, Vercel, Jest, Storybook"
+              ]
             }
           ]
         },
         {
           "company": "Interdrinks/Saveur-biere.com",
-          "jobs": [
+          "projects": [
             {
               "start": "May 2019",
               "end": "May 2022",
               "name": "Technical Lead Frontend (Web)",
-              "description": "At Saveur Bière, I built up the frontend team from scratch and led it through some exciting growth. We boosted performance, tightened up our architecture, and worked closely with product to make Europe’s biggest online beer shop even better. It was a mix of hands-on coding, strategy, and mentoring – and a big step in shaping my leadership style."
+              "description": "At Saveur Bière, I built up the frontend team from scratch and led it through some exciting growth. We boosted performance, tightened up our architecture, and worked closely with product to make Europe’s biggest online beer shop even better. It was a mix of hands-on coding, strategy, and mentoring – and a big step in shaping my leadership style.",
+              "details": [
+                "-> Grew and managed a frontend team from 0 to 8 developers, fostering a culture of code quality and ownership.",
+                "-> Directed frontend strategy & architecture for Europe’s largest online beer retailer.",
+                "-> Boosted page speed and site availability, reducing bounce rate by 18% and increasing conversion rate by 12%.",
+                "-> Reduced production errors by 25% through error monitoring (Sentry) and test automation.",
+                "-> Partnered with CTO and product teams to define long-term technical roadmap aligned with business growth.",
+                "Key Stack: React, Next.js, Redux, TypeScript, AWS (Serverless), Cypress, Jest, Styled-components, Vercel"
+              ]
             },
             {
               "start": "July 2018",
               "end": "May 2019",
               "name": "Frontend developper (web)",
-              "description": "This role gave me the chance to dive deep into React/Next.js and ship features that directly improved the shopping experience. I learned a ton about state management, performance, and SEO – and really started seeing the impact of clean, scalable frontend work."
+              "description": "This role gave me the chance to dive deep into React/Next.js and ship features that directly improved the shopping experience. I learned a ton about state management, performance, and SEO – and really started seeing the impact of clean, scalable frontend work.",
+              "details": [
+                "-> Delivered new customer-facing features in React/Next.js, improving user experience across e-commerce flows.",
+                "-> Mastered Redux-Saga for state management, enabling smoother checkout and cart functionality.",
+                "-> Optimized frontend performance, contributing to huge gains in SEO and traffic."
+              ]
             }
           ]
         },
         {
           "company": "Silicon Salad",
-          "jobs": [
+          "projects": [
             {
               "start": "April 2015",
               "end": "June 2018",
               "name": "Web Frontend Developer",
-              "description": "At Silicon Salad, I worked on e-commerce projects for well-known retail clients, modernizing frontends and pushing for better performance. I got to experiment with React, Sass, and PWA optimizations – always aiming to make sites faster, cleaner, and easier for customers."
+              "description": "At Silicon Salad, I worked on e-commerce projects for well-known retail clients, modernizing frontends and pushing for better performance. I got to experiment with React, Sass, and PWA optimizations – always aiming to make sites faster, cleaner, and easier for customers.",
+              "details": [
+                "-> Developed responsive websites and e-commerce platforms serving high-traffic retail clients.",
+                "-> Modernized legacy frontends with React, Sass, and modular CSS methodologies (BEM, OOCSS).",
+                "-> Introduced performance optimizations (PWA, caching) improving load times by up to 40%."
+              ]
             }
           ]
         },
         {
           "company": "Onemore",
-          "jobs": [
+          "projects": [
             {
               "start": "January 2013",
               "end": "March 2015",
               "name": "Cofounder",
-              "description": "Co-founding Onemore was a real adventure – from meeting clients to scoping projects, coding sites, and even training customers on how to use their tools. It taught me a lot about balancing business and tech, and it was rewarding to see happy clients getting exactly what they needed."
+              "description": "Co-founding Onemore was a real adventure – from meeting clients to scoping projects, coding sites, and even training customers on how to use their tools. It taught me a lot about balancing business and tech, and it was rewarding to see happy clients getting exactly what they needed.",
+              "details": [
+                "-> Co-founded a digital studio delivering web solutions for SMEs.",
+                "-> Managed full project lifecycle: client engagement, specifications, estimates, development, and training.",
+                "-> Built custom websites and e-commerce, ensuring responsive and performant experiences.",
+                "-> Drove customer satisfaction with on-time delivery and tailored digital training."
+              ]
             }
           ]
         }
-      ],
-      "incentive": "If you're curious about the outcomes of my contribution to these projets, you can find more details/numbers/KPI's on my LinkedIn profile !"
+      ]
     },
     "hobbies": {
       "title": "Hobbies & Interests",

@@ -16,18 +16,18 @@
   font-size: 2rem;
 }
 
-.project {
+.job {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
 }
 
-.projectCompany {
+.company {
   font-weight: 600;
   font-size: 1.625rem;
 }
 
-.projectJob {
+.project {
   display: flex;
   flex-direction: column;
   gap: 0.75rem;
@@ -52,7 +52,42 @@
   line-height: 1.55;
 }
 
-.incentive {
+.details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.detailsSummary {
+  font-weight: 500;
+  outline: none;
+}
+
+.detailsSummary:focus-visible {
+  color: var(--hover);
+  text-decoration: underline;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .detailsSummary {
+    cursor: pointer;
+  }
+
+  .detailsSummary:hover {
+    color: var(--hover);
+    text-decoration: underline;
+  }
+}
+
+.detailsList {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  gap: 0.75rem;
+  padding-left: 1.5rem;
+}
+
+.detail {
   font-size: 1.125rem;
   line-height: 1.55;
 }

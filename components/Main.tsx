@@ -15,16 +15,17 @@ const icons: Record<string, (props: SVGProps<SVGSVGElement>) => JSX.Element> = {
   chip: ChipIcon,
 }
 
-type Job = {
+type Project = {
   start: string
   end: string
   name: string
   description: string
+  details: string[]
 }
 
-type Project = {
+type Job = {
   company: string
-  jobs: Job[]
+  projects: Project[]
 }
 
 type Hobby = {
@@ -40,10 +41,13 @@ export const Main = async () => {
       <h2 className={styles.title} id='work'>
         {data.main.experience.title}
       </h2>
-      {data.main.experience.projects.map(project => (
-        <Project key={project.company} project={project} />
+      {data.main.experience.jobs.map(job => (
+        <Job
+          key={job.company}
+          job={job}
+          detailsText={data.main.experience.detailsText}
+        />
       ))}
-      <p className={styles.incentive}>{data.main.experience.incentive}</p>
 
       <h2 className={styles.title} id='hobbies'>
         {data.main.hobbies.title}
@@ -57,25 +61,46 @@ export const Main = async () => {
   )
 }
 
-function Job({ job }: { job: Job }) {
+function Job({ job, detailsText }: { job: Job; detailsText: string }) {
   return (
-    <div className={styles.projectJob}>
-      <p className={styles.projectDates}>
-        {job.start} {'->'} {job.end}
-      </p>
-      <h4 className={styles.projectName}>{job.name}</h4>
-      <p className={styles.projectDescription}>{job.description}</p>
+    <div className={styles.job}>
+      <h3 className={styles.company}>{job.company}</h3>
+      {job.projects.map(project => (
+        <Project
+          key={project.start}
+          project={project}
+          detailsText={detailsText}
+        />
+      ))}
     </div>
   )
 }
-
-function Project({ project }: { project: Project }) {
+function Project({
+  project,
+  detailsText,
+}: {
+  project: Project
+  detailsText: string
+}) {
   return (
     <div className={styles.project}>
-      <h3 className={styles.projectCompany}>{project.company}</h3>
-      {project.jobs.map(job => (
-        <Job key={job.start} job={job} />
-      ))}
+      <p className={styles.projectDates}>
+        {project.start} {'->'} {project.end}
+      </p>
+      <h4 className={styles.projectName}>{project.name}</h4>
+      <p className={styles.projectDescription}>{project.description}</p>
+      {project.details.length > 0 && (
+        <details className={styles.details}>
+          <summary className={styles.detailsSummary}>{detailsText}</summary>
+          <ul className={styles.detailsList}>
+            {project.details.map(detail => (
+              <li key={detail} className={styles.detail}>
+                {detail}
+              </li>
+            ))}
+          </ul>
+        </details>
+      )}
     </div>
   )
 }
