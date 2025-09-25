@@ -25,10 +25,6 @@ export async function generateMetadata(): Promise<Metadata> {
   }
 }
 
-export async function generateStaticParams() {
-  return [{}]
-}
-
 type RootLayoutProps = Readonly<{
   children: React.ReactNode
 }>
